@@ -1,0 +1,14 @@
+{
+  "name": "aula_01_node",
+  "version": "1.0.0",
+  "description": "aula introdutória ",
+  
+  "license": "MIT",
+  "author": "roberta2020raa",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
