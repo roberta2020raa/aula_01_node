@@ -2,13 +2,18 @@
   "name": "aula_01_node",
   "version": "1.0.0",
   "description": "aula introdutória ",
-  
   "license": "MIT",
   "author": "roberta2020raa",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev":"node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
